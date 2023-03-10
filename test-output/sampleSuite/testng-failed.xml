@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [sampleSuite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="MiniCaseStudy(failed)">
+    <groups>
+      <run>
+        <include name="featureOne"/>
+        <include name="featureTwo"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="demoblaze.caseStudy">
+        <methods>
+          <include name="DeleteItemInCart"/>
+          <include name="teardown"/>
+          <include name="close"/>
+          <include name="open"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- demoblaze.caseStudy -->
+    </classes>
+  </test> <!-- MiniCaseStudy(failed) -->
+</suite> <!-- Failed suite [sampleSuite] -->
