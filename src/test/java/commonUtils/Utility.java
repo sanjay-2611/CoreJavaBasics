@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Utility {
 // sanjay is editing the file
+// natesan is editing the file
 
 		// TODO Auto-generated method stub
 		public static String getScreenshotPath(WebDriver driver)
